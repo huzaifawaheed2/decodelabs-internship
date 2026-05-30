@@ -22,6 +22,34 @@ Tasks Performed:
 Project Folder:
 Project-1-Data-Cleaning
 
+---
+
+### Project 2 - Exploratory Data Analysis (EDA)
+Tools Used:
+- Microsoft Excel
+- Power Query
+- Pivot Tables
+- Pivot Charts
+- Microsoft Word
+- GitHub
+
+Tasks Performed:
+- Customer Purchasing Behavior Analysis
+- Descriptive Statistical Analysis
+- Product Performance Trend Analysis
+- Revenue Generation Analysis
+- Payment Method Preferences Analysis
+- Referral Source Effectiveness Analysis
+- Outlier Detection using IQR Method
+- Business Insights Generation
+
+Dataset: E-Commerce Transaction Records (1200 records)
+
+Project Folder:
+Project-2-Exploratory-Data-Analysis-(EDA)
+
+---
+
 ## Author
 
 Muhammad Huzaifa Waheed
