@@ -50,6 +50,40 @@ Project-2-Exploratory-Data-Analysis-(EDA)
 
 ---
 
+### Project 3 - SQL Data Analysis
+Tools Used:
+- Microsoft SQL Server
+- Microsoft Excel
+- Microsoft Word
+- GitHub
+
+Tasks Performed:
+- Database Creation and Design
+- Data Import from Excel to SQL Server
+- Data Type Conversion and Validation
+- SQL Fundamentals (SELECT, WHERE, ORDER BY, GROUP BY)
+- Aggregate Functions (COUNT, SUM, AVG, MIN, MAX)
+- Intermediate SQL Practice (AND, OR, BETWEEN, IN, LIKE, DISTINCT)
+- Business Analysis Queries
+- Advanced Analysis and Reporting
+- Customer Behavior Analysis
+- Revenue Analysis by Product, Payment Method, and Referral Source
+
+Dataset: E-Commerce Transaction Records (Database: ECommerceAnalysis)
+
+Key Findings:
+- Top Selling Product: Chair (562 units)
+- Highest Revenue Product: Chair (₹195,620.11)
+- Most Used Payment Method: Online Payment (258 transactions)
+- Highest Revenue Payment Method: Credit Card (₹263,847.63)
+- Best Referral Source: Instagram (259 orders, ₹275,285.45 revenue)
+- Top Customer: C38840 (₹5,723.23 spending)
+
+Project Folder:
+Project-3-SQL-Data-Analysis
+
+---
+
 ## Author
 
 Muhammad Huzaifa Waheed
