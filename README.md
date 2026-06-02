@@ -73,11 +73,11 @@ Dataset: E-Commerce Transaction Records (Database: ECommerceAnalysis)
 
 Key Findings:
 - Top Selling Product: Chair (562 units)
-- Highest Revenue Product: Chair (₹195,620.11)
+- Highest Revenue Product: Chair (195,620.11)
 - Most Used Payment Method: Online Payment (258 transactions)
-- Highest Revenue Payment Method: Credit Card (₹263,847.63)
-- Best Referral Source: Instagram (259 orders, ₹275,285.45 revenue)
-- Top Customer: C38840 (₹5,723.23 spending)
+- Highest Revenue Payment Method: Credit Card (263,847.63)
+- Best Referral Source: Instagram (259 orders, 275,285.45 revenue)
+- Top Customer: C38840 (5,723.23 spending)
 
 Project Folder:
 Project-3-SQL-Data-Analysis
