@@ -222,18 +222,20 @@ The insights generated from this project can support future business decisions r
 
 ---
 
-## 👨‍💻 Author
+# Author
 
-**Muhammad Huzaifa Waheed**
+## Muhammad Huzaifa Waheed
 
-Data Analytics Intern – DecodeLabs
+BS Computer Science Student
+
+BS Computer Science Student | Aspiring Data Analyst & Data Quality Assurance Professional | Power BI Developer
+
+GitHub:
+https://github.com/huzaifawaheed2
+
+LinkedIn:
+https://linkedin.com/in/muhammad-huzaifa-waheed-70043338b
 
 ---
 
-## 📅 Project Information
-
-**Project:** Exploratory Data Analysis (EDA)
-
-**Internship:** DecodeLabs Data Analytics Internship
-
-**Project Number:** Project 2
+⭐ If you found this repository useful, consider giving it a star.

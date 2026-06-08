@@ -1,91 +1,310 @@
-# DecodeLabs Internship Projects
+# DecodeLabs Data Analytics Internship Projects
 
-This repository contains all projects completed during my DecodeLabs Data Analytics Internship.
+A collection of projects completed during my **DecodeLabs Data Analytics Internship**, demonstrating practical skills in **Data Cleaning, Exploratory Data Analysis (EDA), SQL Analytics, Data Modeling, Business Intelligence, and Data Visualization**.
 
-## Projects
+This repository showcases the complete data analytics workflow from raw data preparation to business insights and interactive dashboard development.
 
-### Project 1 - Data Cleaning and Preparation
-Tools Used:
-- Microsoft Excel
-- Power Query
-- GitHub
-- Microsoft Word
+---
 
-Tasks Performed:
-- Data Profiling
-- Missing Value Handling
-- Duplicate Validation
-- Date Format Standardization
-- Data Type Validation
-- Final Data Cleaning
+## Internship Overview
 
-Project Folder:
+During this internship, I worked on multiple real-world data analytics projects covering:
+
+* Data Cleaning & Preparation
+* Exploratory Data Analysis (EDA)
+* SQL-Based Business Analysis
+* Data Modeling
+* Dashboard Development
+* Business Intelligence Reporting
+* Data Visualization using Power BI
+
+---
+
+# Projects
+
+## Project 1 – Data Cleaning and Preparation
+
+### Tools Used
+
+* Microsoft Excel
+* Power Query
+* Microsoft Word
+* GitHub
+
+### Tasks Performed
+
+* Data Profiling
+* Missing Value Handling
+* Duplicate Validation
+* Date Format Standardization
+* Data Type Validation
+* Data Quality Assessment
+* Final Data Cleaning
+
+### Skills Demonstrated
+
+* Data Cleaning
+* Data Transformation
+* Data Validation
+* Data Quality Management
+
+### Project Folder
+
+```text
 Project-1-Data-Cleaning
+```
 
 ---
 
-### Project 2 - Exploratory Data Analysis (EDA)
-Tools Used:
-- Microsoft Excel
-- Power Query
-- Pivot Tables
-- Pivot Charts
-- Microsoft Word
-- GitHub
+## Project 2 – Exploratory Data Analysis (EDA)
 
-Tasks Performed:
-- Customer Purchasing Behavior Analysis
-- Descriptive Statistical Analysis
-- Product Performance Trend Analysis
-- Revenue Generation Analysis
-- Payment Method Preferences Analysis
-- Referral Source Effectiveness Analysis
-- Outlier Detection using IQR Method
-- Business Insights Generation
+### Tools Used
 
-Dataset: E-Commerce Transaction Records (1200 records)
+* Microsoft Excel
+* Power Query
+* Pivot Tables
+* Pivot Charts
+* Microsoft Word
+* GitHub
 
-Project Folder:
+### Dataset
+
+**E-Commerce Transaction Records (1,200 Records)**
+
+### Tasks Performed
+
+* Customer Purchasing Behavior Analysis
+* Product Performance Analysis
+* Revenue Trend Analysis
+* Descriptive Statistical Analysis
+* Payment Method Analysis
+* Referral Source Analysis
+* Outlier Detection using IQR Method
+* Business Insights Generation
+
+### Skills Demonstrated
+
+* Exploratory Data Analysis
+* Statistical Analysis
+* Data Interpretation
+* Business Reporting
+* Insight Generation
+
+### Project Folder
+
+```text
 Project-2-Exploratory-Data-Analysis-(EDA)
+```
 
 ---
 
-### Project 3 - SQL Data Analysis
-Tools Used:
-- Microsoft SQL Server
-- Microsoft Excel
-- Microsoft Word
-- GitHub
+## Project 3 – SQL Data Analysis
 
-Tasks Performed:
-- Database Creation and Design
-- Data Import from Excel to SQL Server
-- Data Type Conversion and Validation
-- SQL Fundamentals (SELECT, WHERE, ORDER BY, GROUP BY)
-- Aggregate Functions (COUNT, SUM, AVG, MIN, MAX)
-- Intermediate SQL Practice (AND, OR, BETWEEN, IN, LIKE, DISTINCT)
-- Business Analysis Queries
-- Advanced Analysis and Reporting
-- Customer Behavior Analysis
-- Revenue Analysis by Product, Payment Method, and Referral Source
+### Tools Used
 
-Dataset: E-Commerce Transaction Records (Database: ECommerceAnalysis)
+* Microsoft SQL Server
+* Microsoft Excel
+* Microsoft Word
+* GitHub
 
-Key Findings:
-- Top Selling Product: Chair (562 units)
-- Highest Revenue Product: Chair (PKR 195,620.11)
-- Most Used Payment Method: Online Payment (258 transactions)
-- Highest Revenue Payment Method: Credit Card (PKR 263,847.63)
-- Best Referral Source: Instagram (259 orders, PKR 275,285.45 revenue)
-- Top Customer: C38840 (PKR 5,723.23 spending)
+### Dataset
 
-Project Folder:
+**E-Commerce Transaction Records**
+
+Database Name:
+
+```text
+ECommerceAnalysis
+```
+
+### Tasks Performed
+
+* Database Design & Creation
+* Data Import and Validation
+* SQL Fundamentals
+* Aggregate Functions
+* Intermediate SQL Analysis
+* Advanced Business Queries
+* Customer Analysis
+* Revenue Analysis
+* Product Performance Analysis
+
+### SQL Topics Covered
+
+* SELECT
+* WHERE
+* ORDER BY
+* GROUP BY
+* HAVING
+* COUNT
+* SUM
+* AVG
+* MIN
+* MAX
+* DISTINCT
+* BETWEEN
+* IN
+* LIKE
+* AND / OR
+
+### Key Business Insights
+
+| Metric                         | Result                            |
+| ------------------------------ | --------------------------------- |
+| Top Selling Product            | Chair (562 Units)                 |
+| Highest Revenue Product        | Chair (PKR 195,620.11)            |
+| Most Used Payment Method       | Online Payment (258 Transactions) |
+| Highest Revenue Payment Method | Credit Card (PKR 263,847.63)      |
+| Best Referral Source           | Instagram (259 Orders)            |
+| Top Customer                   | C38840 (PKR 5,723.23 Spending)    |
+
+### Skills Demonstrated
+
+* SQL Query Writing
+* Database Management
+* Business Intelligence
+* Data Analysis
+* Data Validation
+
+### Project Folder
+
+```text
 Project-3-SQL-Data-Analysis
+```
 
 ---
 
-## Author
+## Project 4 – Retail Sales Analytics Dashboard
 
-Muhammad Huzaifa Waheed
+### Tools Used
 
-BS Computer Science Student | Aspiring Data Analyst & Data Quality Assurance Professional
+* Power BI Desktop
+* Power Query
+* DAX
+* Data Modeling
+* GitHub
+
+### Dashboard Pages
+
+#### Sales Overview
+
+* Revenue Performance
+* Order Analysis
+* Product Revenue Trends
+* Referral Source Analysis
+* Order Status Distribution
+
+#### Product Analysis
+
+* Product Performance
+* Revenue vs Quantity Analysis
+* Unit Price Analysis
+* Product Status Breakdown
+
+#### Customer Insights
+
+* Customer Behavior Analysis
+* Payment Method Analysis
+* Coupon Performance Analysis
+* Repeat Customer Analysis
+* Revenue by Year
+
+### Features
+
+* Interactive Filters
+* Dynamic KPI Cards
+* Custom Navigation Menu
+* Data Modeling
+* DAX Measures
+* Cross Filtering
+* Professional Dashboard Design
+
+### Skills Demonstrated
+
+* Business Intelligence
+* Data Visualization
+* Dashboard Design
+* DAX
+* Power BI Development
+* Data Modeling
+
+### Project Folder
+
+```text
+Project-4-Data-Visualization
+```
+
+---
+
+# Technical Skills Demonstrated
+
+### Data Analytics
+
+* Data Cleaning
+* Data Transformation
+* Data Validation
+* Exploratory Data Analysis
+* Statistical Analysis
+* Business Reporting
+
+### SQL
+
+* SQL Query Development
+* Aggregate Functions
+* Data Filtering
+* Business Analysis Queries
+* Database Design
+
+### Power BI
+
+* Power Query
+* Data Modeling
+* DAX Measures
+* Interactive Dashboards
+* KPI Design
+* Navigation Design
+
+### Business Intelligence
+
+* Dashboard Development
+* Performance Monitoring
+* Business Insights
+* Decision Support Reporting
+
+---
+
+# Repository Structure
+
+```text
+DecodeLabs-Internship/
+│
+├── Project-1-Data-Cleaning/
+│
+├── Project-2-Exploratory-Data-Analysis-(EDA)/
+│
+├── Project-3-SQL-Data-Analysis/
+│
+├── Project-4-Data-Visualization/
+│
+└── README.md
+```
+
+---
+
+# Author
+
+## Muhammad Huzaifa Waheed
+
+BS Computer Science Student
+
+BS Computer Science Student | Aspiring Data Analyst & Data Quality Assurance Professional | Power BI Developer
+
+GitHub:
+https://github.com/huzaifawaheed2
+
+LinkedIn:
+https://linkedin.com/in/muhammad-huzaifa-waheed-70043338b
+
+---
+
+⭐ If you found this repository useful, consider giving it a star.

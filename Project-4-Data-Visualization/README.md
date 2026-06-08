@@ -343,7 +343,7 @@ Project-4-Data-Visualization/
 
 **Muhammad Huzaifa Waheed**
 
-BS Computer Science Student | Aspiring Data Analyst & Data Quality Assurance Professional | Power BI Developer | 
+BS Computer Science Student | Aspiring Data Analyst & Data Quality Assurance Professional | Power BI Developer
 
 GitHub: https://github.com/huzaifawaheed2
 

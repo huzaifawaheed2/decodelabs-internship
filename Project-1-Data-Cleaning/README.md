@@ -49,7 +49,22 @@ The objective of this project was to clean and prepare a raw dataset for analysi
 - Data Preparation
 - Documentation
 
-## Author
-Muhammad Huzaifa Waheed
+---
 
-DecodeLabs Data Analytics Internship – Project 1
+# Author
+
+## Muhammad Huzaifa Waheed
+
+BS Computer Science Student
+
+BS Computer Science Student | Aspiring Data Analyst & Data Quality Assurance Professional | Power BI Developer
+
+GitHub:
+https://github.com/huzaifawaheed2
+
+LinkedIn:
+https://linkedin.com/in/muhammad-huzaifa-waheed-70043338b
+
+---
+
+⭐ If you found this repository useful, consider giving it a star.
