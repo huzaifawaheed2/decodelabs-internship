@@ -341,12 +341,18 @@ Project-4-Data-Visualization/
 
 # Author
 
-**Muhammad Huzaifa Waheed**
+## Muhammad Huzaifa Waheed
+
+BS Computer Science Student
 
 BS Computer Science Student | Aspiring Data Analyst & Data Quality Assurance Professional | Power BI Developer
 
-GitHub: https://github.com/huzaifawaheed2
+GitHub:
+https://github.com/huzaifawaheed2
+
+LinkedIn:
+https://linkedin.com/in/muhammad-huzaifa-waheed-70043338b
 
 ---
 
-## If you found this project useful, consider giving it a ⭐ on GitHub.
+⭐ If you found this repository useful, consider giving it a star.
