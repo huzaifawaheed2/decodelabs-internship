@@ -1,14 +1,14 @@
-# DecodeLabs Data Analytics Internship Projects
+# Retail Sales Analytics
 
-A collection of projects completed during my **DecodeLabs Data Analytics Internship**, demonstrating practical skills in **Data Cleaning, Exploratory Data Analysis (EDA), SQL Analytics, Data Modeling, Business Intelligence, and Data Visualization**.
+A collection of data analytics projects demonstrating practical skills in **Data Cleaning, Exploratory Data Analysis (EDA), SQL Analytics, Data Modeling, Business Intelligence, and Data Visualization**.
 
 This repository showcases the complete data analytics workflow from raw data preparation to business insights and interactive dashboard development.
 
 ---
 
-## Internship Overview
+## Project Overview
 
-During this internship, I worked on multiple real-world data analytics projects covering:
+This repository contains multiple data analytics projects covering:
 
 * Data Cleaning & Preparation
 * Exploratory Data Analysis (EDA)
@@ -69,7 +69,7 @@ Project-1-Data-Cleaning
 
 ### Dataset
 
-**E-Commerce Transaction Records (1,200 Records)**
+**Retail Sales Transaction Records (1,200 Records)**
 
 ### Tasks Performed
 
@@ -93,7 +93,7 @@ Project-1-Data-Cleaning
 ### Project Folder
 
 ```text
-Project-2-Exploratory-Data-Analysis-(EDA)
+Project-2-Explatory-Data-Analysis-(EDA)
 ```
 
 ---
@@ -109,7 +109,7 @@ Project-2-Exploratory-Data-Analysis-(EDA)
 
 ### Dataset
 
-**E-Commerce Transaction Records**
+**Retail Sales Transaction Records**
 
 Database Name:
 
@@ -152,11 +152,11 @@ ECommerceAnalysis
 | Metric                         | Result                            |
 | ------------------------------ | --------------------------------- |
 | Top Selling Product            | Chair (562 Units)                 |
-| Highest Revenue Product        | Chair (PKR 195,620.11)            |
+| Highest Revenue Product        | Chair ($195,620.11)               |
 | Most Used Payment Method       | Online Payment (258 Transactions) |
-| Highest Revenue Payment Method | Credit Card (PKR 263,847.63)      |
+| Highest Revenue Payment Method | Credit Card ($263,847.63)         |
 | Best Referral Source           | Instagram (259 Orders)            |
-| Top Customer                   | C38840 (PKR 5,723.23 Spending)    |
+| Top Customer                   | C38840 ($5,723.23 Spending)       |
 
 ### Skills Demonstrated
 
@@ -276,16 +276,12 @@ Project-4-Data-Visualization
 # Repository Structure
 
 ```text
-DecodeLabs-Internship/
+Retail-Sales-Analytics/
 │
 ├── Project-1-Data-Cleaning/
-│
 ├── Project-2-Exploratory-Data-Analysis-(EDA)/
-│
 ├── Project-3-SQL-Data-Analysis/
-│
 ├── Project-4-Data-Visualization/
-│
 └── README.md
 ```
 
@@ -297,14 +293,14 @@ DecodeLabs-Internship/
 
 BS Computer Science Student
 
-BS Computer Science Student | Aspiring Data Analyst & Data Quality Assurance Professional | Power BI Developer
+Data Analyst | Power BI Developer | QA Engineer
 
 GitHub:
 https://github.com/huzaifawaheed2
 
 LinkedIn:
-https://linkedin.com/in/muhammad-huzaifa-waheed-70043338b
+https://www.linkedin.com/in/muhammad-huzaifa-waheed-70043338b
 
 ---
 
-⭐ If you found this repository useful, consider giving it a star.
+If you found this repository useful, consider giving it a star.
