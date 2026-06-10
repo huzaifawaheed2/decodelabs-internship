@@ -282,6 +282,7 @@ Retail-Sales-Analytics/
 ├── Project-2-Exploratory-Data-Analysis-(EDA)/
 ├── Project-3-SQL-Data-Analysis/
 ├── Project-4-Data-Visualization/
+├── .gitignore
 └── README.md
 ```
 
