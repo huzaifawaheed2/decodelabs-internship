@@ -345,14 +345,14 @@ Project-4-Data-Visualization/
 
 BS Computer Science Student
 
-BS Computer Science Student | Aspiring Data Analyst & Data Quality Assurance Professional | Power BI Developer
+Data Analyst | Power BI Developer | QA Engineer
 
 GitHub:
 https://github.com/huzaifawaheed2
 
 LinkedIn:
-https://linkedin.com/in/muhammad-huzaifa-waheed-70043338b
+https://www.linkedin.com/in/muhammad-huzaifa-waheed-70043338b
 
 ---
 
-⭐ If you found this repository useful, consider giving it a star.
+If you found this repository useful, consider giving it a star.
