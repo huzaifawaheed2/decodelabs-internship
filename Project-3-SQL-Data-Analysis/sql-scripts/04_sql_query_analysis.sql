@@ -1,6 +1,5 @@
 -- =========================================================
 -- PROJECT 3 - SQL DATA ANALYSIS
--- DecodeLabs Data Analytics Internship
 -- Prepared By: Muhammad Huzaifa Waheed
 -- =========================================================
 
