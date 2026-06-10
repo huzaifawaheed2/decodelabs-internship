@@ -4,9 +4,7 @@
 
 This project focuses on performing SQL-based analysis on a retail sales dataset using Microsoft SQL Server.
 
-The objective was to transform raw transactional data into meaningful business insights through SQL queries, aggregations, filtering techniques, and analytical reporting.
-
-The project covers the complete workflow from database creation and data import to advanced business analysis and reporting.
+The objective was to transform raw transactional data into meaningful business insights through SQL queries, filtering techniques, aggregation functions, and business reporting. The project covers the complete workflow from database creation and data import to advanced analytical reporting and business intelligence.
 
 ---
 
@@ -53,15 +51,19 @@ The dataset contains retail sales transaction records including:
 
 ### Dataset Screenshot
 
-![Cleaned Dataset](screenshots/01_cleaned_dataset.png)
+<p align="center">
+  <img src="screenshots/01_cleaned_dataset.png" width="850">
+</p>
 
 ---
 
+# Database Setup
+
 ## Database Creation
 
-A dedicated SQL database was created for storing and analyzing transaction records.
+A dedicated SQL database was created for storing and analyzing retail sales transactions.
 
-### Database Creation
+### SQL Command
 
 ```sql
 CREATE DATABASE ECommerceAnalysis;
@@ -73,57 +75,100 @@ USE ECommerceAnalysis;
 
 ### Screenshot
 
-![Database Created](screenshots/02_database_created.png)
+<p align="center">
+  <img src="screenshots/02_database_created.png" width="700">
+</p>
+
+### Explanation
+
+* A separate database environment was created for analysis.
+* This ensured proper organization and management of transactional data.
+* The database served as the foundation for all subsequent SQL operations.
 
 ---
 
 ## Table Creation
 
-The transaction table was created with appropriate column definitions and data types.
+The Orders table was created with appropriate column names and data types.
 
 ### Screenshot
 
-![Table Created](screenshots/03_table_created.png)
+<p align="center">
+  <img src="screenshots/03_table_created.png" width="700">
+</p>
+
+### Explanation
+
+* The table structure was designed to store transaction information efficiently.
+* Appropriate data types were assigned to each field.
+* Proper table design improves query performance and data integrity.
 
 ---
 
 ## Data Import Process
 
-The dataset was imported from Excel into SQL Server using the SQL Server Import and Export Wizard.
+The dataset was imported from Excel into SQL Server using the Import and Export Wizard.
 
 ### Import Wizard
 
-![Import Wizard](screenshots/04_steps_to_open_import_wizard.png)
+<p align="center">
+  <img src="screenshots/04_steps_to_open_import_wizard.png" width="700">
+</p>
 
 ### Data Type Mapping
 
-![Data Type Mapping](screenshots/05_data_type_mapping_during_import_process.png)
+<p align="center">
+  <img src="screenshots/05_data_type_mapping_during_import_process.png" width="700">
+</p>
 
 ### Successful Import
 
-![Successful Import](screenshots/06_successful_dataset_import_into_orders_table.png)
+<p align="center">
+  <img src="screenshots/06_successful_dataset_import_into_orders_table.png" width="700">
+</p>
+
+### Explanation
+
+* Column mappings were verified.
+* Data types were validated.
+* Import errors were reviewed and resolved.
+* The complete dataset was successfully imported into SQL Server.
 
 ---
 
-## Data Migration & Validation
+## Data Migration and Validation
 
-A new table was created to resolve date conversion issues and ensure proper data storage.
+Date conversion issues were resolved through data migration and validation techniques.
 
 ### Orders Table
 
-![Orders Table](screenshots/07_orders_new_created.png)
+<p align="center">
+  <img src="screenshots/07_orders_new_created.png" width="700">
+</p>
 
 ### Data Migration
 
-![Data Migration](screenshots/08_data_migration.png)
+<p align="center">
+  <img src="screenshots/08_data_migration.png" width="700">
+</p>
 
 ### Final Orders Table
 
-![Final Orders Table](screenshots/09_final_orders_table.png)
+<p align="center">
+  <img src="screenshots/09_final_orders_table.png" width="700">
+</p>
 
 ### Data Verification
 
-![Data Verification](screenshots/10_data_verification.png)
+<p align="center">
+  <img src="screenshots/10_data_verification.png" width="700">
+</p>
+
+### Explanation
+
+* OrderDate conversion issues were resolved.
+* Data was migrated into a corrected table structure.
+* Validation confirmed successful migration without data loss.
 
 ---
 
@@ -131,169 +176,434 @@ A new table was created to resolve date conversion issues and ensure proper data
 
 ## Section 1: SQL Fundamentals
 
-Basic SQL queries were performed for data retrieval, filtering, sorting, and grouping.
-
 ### Retrieve All Records
 
-![Query 1](screenshots/11_query1_select_all_records.png)
+<p align="center">
+  <img src="screenshots/11_query1_select_all_records.png" width="650">
+</p>
+
+#### Purpose
+
+Retrieve all records from the Orders table.
+
+#### Result Summary
+
+* Confirmed successful data import.
+* Verified table structure and available columns.
+
+---
 
 ### WHERE Clause Filtering
 
-![Query 2](screenshots/12_query2_where_clause_filter.png)
+<p align="center">
+  <img src="screenshots/12_query2_where_clause_filter.png" width="650">
+</p>
+
+#### Purpose
+
+Filter records based on specific conditions.
+
+#### Result Summary
+
+* Returned only records matching the defined criteria.
+* Demonstrated data filtering techniques.
+
+---
 
 ### ORDER BY Analysis
 
-![Query 3](screenshots/13_query3_order_by_totalprice_desc.png)
+<p align="center">
+  <img src="screenshots/13_query3_orderby_totalprice_desc.png" width="650">
+</p>
+
+#### Purpose
+
+Sort transactions by TotalPrice in descending order.
+
+#### Result Summary
+
+* Identified highest-value transactions.
+* Highlighted premium customer purchases.
+
+---
 
 ### GROUP BY Product Analysis
 
-![Query 4](screenshots/14_query4_group_by_product_analysis.png)
+<p align="center">
+  <img src="screenshots/14_query4_groupby_product_analysis.png" width="650">
+</p>
+
+#### Purpose
+
+Group records by product.
+
+#### Result Summary
+
+* Generated product-level summaries.
+* Enabled comparison of product performance.
 
 ---
 
 ## Section 2: Aggregate Functions
 
-Aggregate functions were used to summarize business metrics.
-
 ### Total Orders
 
-![Query 5](screenshots/15_query5_count_total_orders.png)
+<p align="center">
+  <img src="screenshots/15_query5_count_total_orders.png" width="650">
+</p>
+
+#### Purpose
+
+Count total transactions.
+
+#### Result Summary
+
+* Confirmed dataset size.
+* Verified total order count.
+
+---
 
 ### Total Revenue
 
-![Query 6](screenshots/16_query6_sum_total_revenue.png)
+<p align="center">
+  <img src="screenshots/16_query6_sum_total_revenue.png" width="650">
+</p>
+
+#### Purpose
+
+Calculate total revenue generated.
+
+#### Result Summary
+
+* Provided an overall revenue figure.
+* Measured business performance.
+
+---
 
 ### Average Order Value
 
-![Query 7](screenshots/17_query7_avg_order_value.png)
+<p align="center">
+  <img src="screenshots/17_query7_avg_order_value.png" width="650">
+</p>
+
+#### Purpose
+
+Calculate average order value.
+
+#### Result Summary
+
+* Measured average customer spending.
+* Useful for sales performance evaluation.
 
 ---
 
 ## Section 3: Intermediate SQL Practice
 
-The following SQL concepts were implemented:
-
-* AND Operator
-* OR Operator
-* BETWEEN Operator
-* IN Operator
-* LIKE Operator
-* DISTINCT Keyword
-* MIN Function
-* MAX Function
-
 ### AND Operator
 
-![Query 8](screenshots/18_query8_and_condition_filter.png)
+<p align="center">
+  <img src="screenshots/18_query8_and_condition_filter.png" width="650">
+</p>
+
+#### Purpose
+
+Apply multiple filtering conditions simultaneously.
+
+#### Result Summary
+
+* Returned records satisfying all conditions.
+
+---
 
 ### OR Operator
 
-![Query 9](screenshots/19_query9_or_condition_filter.png)
+<p align="center">
+  <img src="screenshots/19_query9_or_condition_filter.png" width="650">
+</p>
+
+#### Purpose
+
+Retrieve records matching either condition.
+
+#### Result Summary
+
+* Expanded result set based on multiple criteria.
+
+---
 
 ### BETWEEN Operator
 
-![Query 10](screenshots/20_query10_between_operator.png)
+<p align="center">
+  <img src="screenshots/20_query10_between_operator.png" width="650">
+</p>
+
+#### Purpose
+
+Filter values within a specified range.
+
+#### Result Summary
+
+* Retrieved transactions within selected limits.
+
+---
 
 ### IN Operator
 
-![Query 11](screenshots/21_query11_in_operator.png)
+<p align="center">
+  <img src="screenshots/21_query11_in_operator.png" width="650">
+</p>
+
+#### Purpose
+
+Filter records using multiple values.
+
+#### Result Summary
+
+* Simplified multi-value filtering.
+
+---
 
 ### LIKE Operator
 
-![Query 12](screenshots/22_query12_like_operator.png)
+<p align="center">
+  <img src="screenshots/22_query12_like_operator.png" width="650">
+</p>
+
+#### Purpose
+
+Search records using patterns.
+
+#### Result Summary
+
+* Retrieved matching text-based records.
+
+---
 
 ### DISTINCT Payment Methods
 
-![Query 13](screenshots/23_query13_distinct_payment_methods.png)
+<p align="center">
+  <img src="screenshots/23_query13_distinct_payment_methods.png" width="650">
+</p>
+
+#### Purpose
+
+Display unique payment methods.
+
+#### Result Summary
+
+* Identified all available payment channels.
+
+---
 
 ### Minimum Order Value
 
-![Query 14](screenshots/24_query14_min_order_value.png)
+<p align="center">
+  <img src="screenshots/24_query14_min_order_value.png" width="650">
+</p>
+
+#### Purpose
+
+Find lowest transaction value.
+
+#### Result Summary
+
+* Identified minimum order amount.
+
+---
 
 ### Maximum Order Value
 
-![Query 15](screenshots/25_query15_max_order_value.png)
+<p align="center">
+  <img src="screenshots/25_query15_max_order_value.png" width="650">
+</p>
+
+#### Purpose
+
+Find highest transaction value.
+
+#### Result Summary
+
+* Identified maximum order amount.
 
 ---
 
-## Section 4: Business Analysis
+# Business Analysis
 
-### Top Selling Products
+## Top Selling Products
 
-![Top Products](screenshots/26_query16_top_selling_products.png)
+<p align="center">
+  <img src="screenshots/26_query16_top_selling_products.png" width="750">
+</p>
 
-### Product Revenue Analysis
-
-![Product Revenue](screenshots/27_query17_product_revenue.png)
-
-### Payment Method Analysis
-
-![Payment Analysis](screenshots/28_query18_payment_method_analysis.png)
-
-### Payment Revenue Analysis
-
-![Payment Revenue](screenshots/29_query19_payment_method_revenue.png)
-
-### Order Status Analysis
-
-![Order Status](screenshots/30_query20_order_status_analysis.png)
-
-### Referral Source Analysis
-
-![Referral Source](screenshots/31_query21_referral_source_analysis.png)
-
-### Referral Revenue Analysis
-
-![Referral Revenue](screenshots/32_query22_referral_source_revenue.png)
-
-### Top 10 Highest Value Orders
-
-![Top Orders](screenshots/33_query23_top10_highest_orders.png)
-
----
-
-## Section 5: Advanced Analysis
-
-### Top 5 Customers by Spending
-
-![Top Customers](screenshots/34_query24_top5_customers_by_spending.png)
-
-### Average Product Price
-
-![Average Product Price](screenshots/35_query25_average_product_unit_price.png)
-
-### Revenue by Year
-
-![Revenue by Year](screenshots/36_query26_revenue_by_year.png)
-
-### Monthly Revenue Trend
-
-![Monthly Revenue Trend](screenshots/37_query27_monthly_revenue_trend.png)
-
----
-
-## Key Business Insights
-
-### Product Performance
+### Findings
 
 * Chair recorded the highest sales volume with 562 units sold.
-* Chair generated the highest revenue of 195,620.11.
+* Printer ranked second in total units sold.
+* Product demand was concentrated among a few high-performing products.
 
-### Payment Analysis
+### Business Impact
+
+* Supports inventory planning.
+* Helps prioritize top-performing products.
+
+---
+
+## Product Revenue Analysis
+
+<p align="center">
+  <img src="screenshots/27_query17_product_revenue.png" width="750">
+</p>
+
+### Findings
+
+* Chair generated the highest revenue of 195,620.11.
+* Revenue contribution varied significantly across products.
+
+### Business Impact
+
+* Helps identify profitable products.
+* Supports pricing and revenue strategies.
+
+---
+
+## Payment Method Analysis
+
+<p align="center">
+  <img src="screenshots/28_query18_payment_method_analysis.png" width="750">
+</p>
+
+### Findings
 
 * Online Payment was the most frequently used payment method.
+
+### Business Impact
+
+* Highlights customer payment preferences.
+* Supports payment optimization decisions.
+
+---
+
+## Payment Revenue Analysis
+
+<p align="center">
+  <img src="screenshots/29_query19_payment_method_revenue.png" width="750">
+</p>
+
+### Findings
+
 * Credit Card generated the highest revenue.
 
-### Referral Performance
+### Business Impact
 
-* Instagram generated the highest number of orders.
+* Useful for payment channel performance evaluation.
+
+---
+
+## Order Status Analysis
+
+<p align="center">
+  <img src="screenshots/30_query20_order_status_analysis.png" width="750">
+</p>
+
+### Findings
+
+* Cancelled orders slightly exceeded delivered orders.
+
+### Business Impact
+
+* Indicates opportunities to improve order fulfillment processes.
+
+---
+
+## Referral Source Analysis
+
+<p align="center">
+  <img src="screenshots/31_query21_referral_source_analysis.png" width="750">
+</p>
+
+### Findings
+
+* Instagram generated the highest number of referred orders.
+
+### Business Impact
+
+* Demonstrates strong social media marketing performance.
+
+---
+
+## Referral Revenue Analysis
+
+<p align="center">
+  <img src="screenshots/32_query22_referral_source_revenue.png" width="750">
+</p>
+
+### Findings
+
 * Instagram generated the highest referral revenue.
 
-### Customer Analysis
+### Business Impact
+
+* Supports marketing budget allocation decisions.
+
+---
+
+## Top 10 Highest Value Orders
+
+<p align="center">
+  <img src="screenshots/33_query23_top10_highest_orders.png" width="750">
+</p>
+
+### Findings
+
+* High-value transactions contributed significantly to overall revenue.
+
+### Business Impact
+
+* Helps identify premium customer segments.
+
+---
+
+# Advanced Analysis
+
+## Top 5 Customers by Spending
+
+<p align="center">
+  <img src="screenshots/34_query24_top_5_customers_by_spending.png" width="750">
+</p>
+
+### Findings
 
 * Customer C38840 generated the highest spending.
 
-### Revenue Performance
+### Business Impact
+
+* Supports customer segmentation strategies.
+
+---
+
+## Average Product Price
+
+<p align="center">
+  <img src="screenshots/35_query25_average_product_unitprice.png" width="750">
+</p>
+
+### Findings
+
+* Significant pricing differences existed across products.
+
+### Business Impact
+
+* Useful for pricing strategy evaluation.
+
+---
+
+## Revenue by Year
+
+<p align="center">
+  <img src="screenshots/36_query26_revenue_by_year.png" width="800">
+</p>
+
+### Findings
 
 | Year | Revenue    |
 | ---- | ---------- |
@@ -301,35 +611,67 @@ The following SQL concepts were implemented:
 | 2024 | 480,235.87 |
 | 2025 | 231,882.85 |
 
+### Business Impact
+
+* Reveals long-term revenue trends.
+* Supports strategic planning and forecasting.
+
 ---
 
-## Learning Outcomes
+## Monthly Revenue Trend
 
-Through this project, the following skills were developed:
+<p align="center">
+  <img src="screenshots/37_query27_monthly_revenue_trend.png" width="800">
+</p>
 
-### SQL Fundamentals
+### Findings
+
+* Monthly revenue fluctuated throughout the period.
+* Some months outperformed others significantly.
+
+### Business Impact
+
+* Supports seasonal analysis and sales forecasting.
+
+---
+
+# Key Business Insights
+
+1. Chair was the highest-selling product and highest revenue-generating product.
+2. Online Payment was the most frequently used payment method.
+3. Credit Card generated the highest payment-based revenue.
+4. Instagram was the strongest referral source by both orders and revenue.
+5. Customer C38840 generated the highest spending.
+6. High-value transactions contributed significantly to total business revenue.
+7. Revenue performance was strongest during 2023.
+
+---
+
+## Skills Demonstrated
+
+### SQL
 
 * SELECT
 * WHERE
 * ORDER BY
 * GROUP BY
-
-### Aggregate Functions
-
-* COUNT()
-* SUM()
-* AVG()
-* MIN()
-* MAX()
-
-### Intermediate SQL
-
-* AND
-* OR
+* HAVING
+* COUNT
+* SUM
+* AVG
+* MIN
+* MAX
+* DISTINCT
 * BETWEEN
 * IN
 * LIKE
-* DISTINCT
+
+### Database Management
+
+* Database Creation
+* Data Import
+* Data Migration
+* Data Validation
 
 ### Business Analytics
 
