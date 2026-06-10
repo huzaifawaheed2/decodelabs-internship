@@ -1,145 +1,252 @@
-# 📊 Exploratory Data Analysis (EDA) – E-Commerce Dataset
+# Exploratory Data Analysis (EDA) – Retail Sales Dataset
 
-## 📌 Project Overview
+## Project Overview
 
-This project was completed as part of the DecodeLabs Data Analytics Internship – Project 2.
+This project focuses on performing Exploratory Data Analysis (EDA) on a retail sales dataset using Microsoft Excel, Power Query, Pivot Tables, and Pivot Charts.
 
-The objective of this project was to perform Exploratory Data Analysis (EDA) on an E-Commerce dataset using Microsoft Excel. The analysis focused on identifying trends, patterns, business insights, and outliers through descriptive statistics, Pivot Tables, and Pivot Charts.
-
----
-
-## 🎯 Project Objectives
-
-- Analyze customer purchasing behavior.
-- Perform descriptive statistical analysis.
-- Identify product performance trends.
-- Analyze revenue generation across products.
-- Evaluate payment method preferences.
-- Analyze referral source effectiveness.
-- Detect outliers using the IQR method.
-- Generate business insights from the dataset.
+The objective was to identify business trends, customer behavior patterns, revenue drivers, product performance, referral source effectiveness, and potential outliers within the dataset.
 
 ---
 
-## 🛠️ Tools Used
+## Project Objectives
 
-- Microsoft Excel
-- Power Query
-- Pivot Tables
-- Pivot Charts
-- Microsoft Word
-- GitHub
+* Analyze customer purchasing behavior
+* Perform descriptive statistical analysis
+* Identify product performance trends
+* Analyze revenue generation across products
+* Evaluate payment method preferences
+* Analyze referral source effectiveness
+* Detect outliers using the IQR method
+* Generate business insights from the dataset
 
 ---
 
-## 📂 Dataset Information
+## Tools Used
 
-The dataset contains E-Commerce transaction records including:
+* Microsoft Excel
+* Power Query
+* Pivot Tables
+* Pivot Charts
+* GitHub
 
-- Order ID
-- Product
-- Quantity
-- Unit Price
-- Items In Cart
-- Total Price
-- Payment Method
-- Order Status
-- Referral Source
-- Coupon Code
-- Order Date
+---
+
+## Dataset Information
+
+The dataset contains retail sales transaction records including:
+
+* Order ID
+* Product
+* Quantity
+* Unit Price
+* Items In Cart
+* Total Price
+* Payment Method
+* Order Status
+* Referral Source
+* Coupon Code
+* Order Date
 
 ### Dataset Summary
 
-| Metric | Value |
-|----------|----------|
-| Total Records | 1200 |
-| Products | 7 |
-| Payment Methods | 5 |
-| Order Statuses | 5 |
-| Referral Sources | 5 |
+| Metric           | Value |
+| ---------------- | ----- |
+| Total Records    | 1200  |
+| Products         | 7     |
+| Payment Methods  | 5     |
+| Order Statuses   | 5     |
+| Referral Sources | 5     |
 
 ---
 
-## 🧹 Data Preparation
+## Data Preparation
 
-The dataset was reviewed and prepared before analysis.
+The dataset was reviewed and validated before performing analysis.
 
-### Activities Performed
+### Raw Dataset Review
 
-- Data Quality Verification
-- Data Profiling using Power Query
-- Date Standardization
-- Coupon Code Validation
-- Duplicate Validation
-- Cleaned Dataset Preparation
+#### Screenshot
+
+![Raw Dataset](screenshots/01_raw_dataset.png)
+
+### Data Profiling
+
+Data profiling was performed to evaluate:
+
+* Data quality
+* Data distribution
+* Distinct values
+* Missing values
+
+#### Screenshot
+
+![Data Profiling](screenshots/02_data_profiling.png)
+
+### Date Standardization
+
+Date fields were reviewed and standardized for accurate trend analysis.
+
+#### Screenshot
+
+![Date Standardization](screenshots/03_date_standardization.png)
+
+### Coupon Code Validation
+
+Coupon code values were reviewed and standardized.
+
+#### Screenshot
+
+![Coupon Replacement](screenshots/04_coupon_replacement.png)
+
+### Duplicate Validation
+
+Order IDs were verified to ensure data integrity.
+
+#### Screenshot
+
+![Duplicate Validation](screenshots/05_duplicate_validation.png)
+
+### Cleaned Dataset
+
+The final validated dataset was prepared for analysis.
+
+#### Screenshot
+
+![Cleaned Dataset](screenshots/06_Cleaned_Dataset.png)
 
 ---
 
-## 📊 Descriptive Statistics Analysis
+## Descriptive Statistics Analysis
 
-The following statistical measures were calculated:
+Statistical analysis was performed using Excel.
 
-- Count
-- Mean
-- Median
-- Minimum
-- Maximum
+The following measures were calculated:
+
+* Count
+* Mean
+* Median
+* Minimum
+* Maximum
 
 ### Statistical Summary
 
-| Variable | Min | Max | Mean | Median |
-|-----------|---------|---------|---------|---------|
-| Quantity | 1 | 5 | 2.95 | 3 |
-| Unit Price | 11.39 | 699.93 | 356.41 | 364.21 |
-| Items In Cart | 1 | 10 | 5.49 | 5 |
-| Total Price | 11.39 | 3456.40 | 1053.97 | 823.62 |
+| Variable      | Min   | Max     | Mean    | Median |
+| ------------- | ----- | ------- | ------- | ------ |
+| Quantity      | 1     | 5       | 2.95    | 3      |
+| Unit Price    | 11.39 | 699.93  | 356.41  | 364.21 |
+| Items In Cart | 1     | 10      | 5.49    | 5      |
+| Total Price   | 11.39 | 3456.40 | 1053.97 | 823.62 |
+
+#### Screenshot
+
+![EDA Statistics](screenshots/07_EDA_Statistics.png)
 
 ---
 
-## 📈 Trend Analysis
+## Trend Analysis
 
-Trend analysis was performed using Pivot Tables and Pivot Charts.
+### Revenue Trend Analysis
 
-### Analyses Performed
+Revenue trends were analyzed to identify sales performance over time.
+
+#### Screenshots
+
+![Trend Analysis 1](screenshots/08_Trend_Analysis_1.png)
+
+![Trend Analysis 2](screenshots/09_Trend_Analysis_2.png)
+
+---
+
+## Product Analysis
 
 ### Product Popularity Analysis
 
-- Printer was the most ordered product.
-- Total Orders: 181
+* Printer was the most ordered product.
+* Total Orders: 181
+
+#### Screenshot
+
+![Product Popularity](screenshots/10_Product_Popularity_Analysis.png)
 
 ### Product Revenue Analysis
 
-- Chair generated the highest revenue.
-- Revenue: 195,620.11
+* Chair generated the highest revenue.
+* Revenue: $195,620.11
+
+#### Screenshot
+
+![Product Revenue](screenshots/11_Product_Revenue_Analysis.png)
 
 ### Product Quantity Sold Analysis
 
-- Chair recorded the highest sales quantity.
-- Units Sold: 562
+* Chair recorded the highest sales quantity.
+* Units Sold: 562
 
-### Payment Method Analysis
+#### Screenshot
 
-- Online was the most frequently used payment method.
-
-### Payment Method Revenue Analysis
-
-- Credit Card generated the highest revenue.
-
-### Order Status Analysis
-
-- Cancelled orders were slightly higher than delivered orders.
-
-### Referral Source Analysis
-
-- Instagram generated the highest number of referrals.
-
-### Referral Source Revenue Analysis
-
-- Instagram generated the highest referral revenue.
+![Product Quantity Sold](screenshots/12_Product_Quantity_Sold_Analysis.png)
 
 ---
 
-## 💡 Key Business Insights
+## Payment Method Analysis
+
+### Transaction Analysis
+
+Payment method usage was analyzed to understand customer preferences.
+
+#### Screenshot
+
+![Payment Method Analysis](screenshots/13_Payment_Method_Analysis.png)
+
+### Revenue Analysis
+
+Revenue contribution was analyzed for each payment method.
+
+#### Screenshot
+
+![Payment Method Revenue](screenshots/14_Payment_Method_Revenue_Analysis.png)
+
+---
+
+## Order Status Analysis
+
+Order status distribution was analyzed to evaluate fulfillment performance.
+
+#### Screenshot
+
+![Order Status Analysis](screenshots/15_Order_Status_Analysis.png)
+
+---
+
+## Referral Source Analysis
+
+### Referral Source Performance
+
+Referral channels were analyzed to identify customer acquisition effectiveness.
+
+#### Screenshot
+
+![Referral Source Analysis](screenshots/16_Referral_Source_Analysis.png)
+
+### Referral Revenue Analysis
+
+Revenue generated through referral channels was evaluated.
+
+#### Screenshot
+
+![Referral Revenue Analysis](screenshots/17_Referral_Source_Revenue_Analysis.png)
+
+---
+
+## Key Business Insights
+
+### Business Insights Summary
+
+#### Screenshot
+
+![Key Business Insights](screenshots/18_Key_Business_Insights.png)
+
+### Key Findings
 
 1. Printer was the most ordered product with 181 orders.
 2. Chair generated the highest revenue among all products.
@@ -150,71 +257,67 @@ Trend analysis was performed using Pivot Tables and Pivot Charts.
 7. Instagram generated the highest referral revenue.
 8. Cancelled orders slightly exceeded delivered orders.
 
+#### Screenshot
+
+![Business Observations](screenshots/19_Business_Observations.png)
+
 ---
 
-## 🚨 Outlier Analysis
+## Outlier Analysis
 
 Outliers were detected using the Interquartile Range (IQR) method.
 
 ### Variables Analyzed
 
-- Quantity
-- UnitPrice
-- ItemsInCart
-- TotalPrice
+* Quantity
+* UnitPrice
+* ItemsInCart
+* TotalPrice
 
-### Results
+#### Outlier Analysis Dashboard
 
-| Variable | Outliers |
-|-----------|-----------|
-| Quantity | 0 |
-| UnitPrice | 0 |
-| ItemsInCart | 0 |
-| TotalPrice | 8 |
+![Outlier Analysis](screenshots/20_Outlier_Analysis.png)
 
-### Findings
+### Quantity Outlier Analysis
 
-- No outliers were detected in Quantity.
-- No outliers were detected in UnitPrice.
-- No outliers were detected in ItemsInCart.
-- Eight outliers were identified in TotalPrice.
-- These outliers represent genuine high-value customer transactions.
-- The dataset remains suitable for business analysis.
+![Quantity Outlier](screenshots/21_Quantity_Outlier_Analysis.png)
 
----
+### Unit Price Outlier Analysis
 
-## 📸 Project Screenshots
+![Unit Price Outlier](screenshots/22_UnitPrice_Outlier_Analysis.png)
 
-### Data Quality Verification
-- Raw Dataset
-- Data Profiling
-- Cleaned Dataset
+### Items In Cart Outlier Analysis
 
-### EDA Statistics
-- Statistical Summary Dashboard
+![Items In Cart Outlier](screenshots/23_ItemsInCart_Outlier_Analysis.png)
 
-### Trend Analysis
-- Product Popularity Analysis
-- Product Revenue Analysis
-- Product Quantity Sold Analysis
-- Payment Method Analysis
-- Payment Revenue Analysis
-- Order Status Analysis
-- Referral Source Analysis
-- Business Insights Dashboard
+### Total Price Outlier Analysis
 
-### Outlier Analysis
-- Quantity Outlier Detection
-- UnitPrice Outlier Analysis
-- ItemsInCart Outlier Analysis
-- TotalPrice Outlier Analysis
-- Outlier Summary
+![Total Price Outlier](screenshots/24_TotalPrice_Outlier_Analysis.png)
+
+### Outlier Summary
+
+| Variable    | Outliers |
+| ----------- | -------- |
+| Quantity    | 0        |
+| UnitPrice   | 0        |
+| ItemsInCart | 0        |
+| TotalPrice  | 8        |
+
+#### Screenshot
+
+![Outlier Summary](screenshots/25_Outlier_Summary.png)
+
+### Final Outlier Insights
+
+#### Screenshot
+
+![Outlier Insights](screenshots/26_Key_Insights_from_Outlier_Analysis.png)
 
 ---
 
-## ✅ Conclusion
+## Conclusion
 
-The Exploratory Data Analysis successfully identified important business trends, customer behavior patterns, revenue drivers, and potential outliers within the dataset.
+The Exploratory Data Analysis successfully identified key business trends, customer behavior patterns, revenue drivers, and potential outliers within the dataset.
 
 The analysis revealed that product performance, payment preferences, and referral channels significantly influence business outcomes. Outlier detection confirmed that the dataset is reliable and suitable for analytical reporting.
 
@@ -228,14 +331,14 @@ The insights generated from this project can support future business decisions r
 
 BS Computer Science Student
 
-BS Computer Science Student | Aspiring Data Analyst & Data Quality Assurance Professional | Power BI Developer
+Data Analyst | Power BI Developer | QA Engineer
 
 GitHub:
 https://github.com/huzaifawaheed2
 
 LinkedIn:
-https://linkedin.com/in/muhammad-huzaifa-waheed-70043338b
+https://www.linkedin.com/in/muhammad-huzaifa-waheed-70043338b
 
 ---
 
-⭐ If you found this repository useful, consider giving it a star.
+If you found this project useful, consider giving it a star.
